@@ -2,11 +2,24 @@ import re
 import pytest
 from playwright.sync_api import Page, expect
 
+#csv file 
+def get_csv_data() -> list:
+    data = []
+    import csv
+    with open('./test-data/data.csv', newline='') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            data.append(row)
+        return data
 
-@pytest.mark.parametrize('username,password', [
-    ('Admin', 'admin123'),
-    ('naila', 'naila123')
-])
+@pytest.mark.parametrize('username,password', 
+# [
+#     ('Admin', 'admin123'),
+#     ('naila', 'naila123')
+# ]
+get_csv_data()
+)
+
 def test_example(page: Page, username, password) -> None:
     page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     page.get_by_role("textbox", name="Username").click()
