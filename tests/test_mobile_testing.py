@@ -1,7 +1,7 @@
 def test_mobile_login(playwright, browser):
     iphone = playwright.devices["iPhone 11"]
 
-    context = browser.new_context(**iphone)
+    context = browser.new_context(**iphone, record_video_dir="reports/")
     page = context.new_page()
 
     page.goto("https://opensource-demo.orangehrmlive.com")

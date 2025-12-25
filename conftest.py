@@ -1,5 +1,6 @@
 
 import pytest
+
 ##### commented out the below browser fixture bcz it was creating conflict with pytest-playwright browser module
 ####   so to get rid of conflict and by defutl use that browser i commented out this 
 # from playwright.sync_api import sync_playwright
@@ -33,3 +34,18 @@ def page(context):
     page = context.new_page()
     yield page
     page.close()
+
+
+# -------- code to manage the urls based on enviroments- --------
+from config.env_config import ENV_CONFIG
+
+def pytest_addoption(parser):
+    parser.addoption("--env", default="qa")
+
+@pytest.fixture(scope="session")
+def env(request):
+    return request.config.getoption("--env")
+
+@pytest.fixture(scope="session")
+def base_url(env):
+    return ENV_CONFIG[env]["base_url"]
