@@ -9,4 +9,10 @@ def test_mobile_login(playwright, browser):
     page.fill("input[name='password']", "admin123")
     page.click("button[type='submit']")
 
+    page.wait_for_timeout(3000)
+    #taking the screenshot 
+    page.screenshot(path="reports/screenshot.png", full_page=True)
+    #take screenshot based on layout
+    # page.locator('div.orangehrm-login-form').screenshot(path="reports/screenshot.png")
+
     context.close()
