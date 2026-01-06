@@ -1,12 +1,18 @@
-import re
-from playwright.sync_api import Page, expect
+from playwright.sync_api import expect
 
-
-def test_example(page: Page) -> None:
+def test_login_success(page):
     page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
-    page.get_by_role("textbox", name="Username").click()
-    page.get_by_role("textbox", name="Username").fill("Admin")
-    page.get_by_role("textbox", name="Password").click()
-    page.get_by_role("textbox", name="Password").fill("admin123")
-    page.get_by_role("button", name="Login").click()
-    page.get_by_role("link", name="Admin").click()
+
+    # Verify we're on the login page
+    expect(page.locator("//h5[normalize-space()='Login']")).to_have_text('Login')
+
+    # Perform login
+    page.locator("input[name='username']").fill("Admin")
+    page.locator("input[name='password']").fill("admin123")
+    page.locator("input[name='username']").clear()
+    page.locator("input[name='password']").clear()
+    page.pause()
+    page.locator("button[type='submit']").click()
+
+  
+

@@ -1,17 +1,17 @@
 versions pytest-9.0.2, python-3.14.2.final.0
 invocation_dir=E:\workspace\playwright-practice
 cwd=E:\workspace\playwright-practice
-args=('--headed', '--debug')
+args=('.\\tests\\test_recorded.py', '--debug')
 
   pytest_cmdline_main [hook]
-      config: <_pytest.config.Config object at 0x000001F3030C7A10>
+      config: <_pytest.config.Config object at 0x000001E0A5427A10>
     pytest_plugin_registered [hook]
         plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
         plugin_name: session
-        manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+        manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
     finish pytest_plugin_registered --> [] [hook]
     pytest_configure [hook]
-        config: <_pytest.config.Config object at 0x000001F3030C7A10>
+        config: <_pytest.config.Config object at 0x000001E0A5427A10>
     early skip of rewriting module: importlib.metadata._adapters [assertion]
     early skip of rewriting module: email.message [assertion]
     early skip of rewriting module: quopri [assertion]
@@ -31,29 +31,29 @@ args=('--headed', '--debug')
     early skip of rewriting module: email.feedparser [assertion]
       pytest_metadata [hook]
           metadata: {'Python': '3.14.2', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'base-url': '2.1.0', 'html': '4.1.1', 'metadata': '3.1.1', 'playwright': '0.7.2'}}
-          config: <_pytest.config.Config object at 0x000001F3030C7A10>
+          config: <_pytest.config.Config object at 0x000001E0A5427A10>
       finish pytest_metadata --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001F305E91010>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001E0A81E5550>
           plugin_name: lfplugin
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001F305E90EC0>
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001E0A81E5400>
           plugin_name: nfplugin
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
     early skip of rewriting module: encodings.unicode_escape [assertion]
       pytest_plugin_registered [hook]
-          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x000001F305E91E80>
-          plugin_name: 2143287844480
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x000001E0A81E63C0>
+          plugin_name: 2064404865984
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
     early skip of rewriting module: faulthandler [assertion]
       pytest_plugin_registered [hook]
           plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
           plugin_name: legacypath-tmpdir
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
     early skip of rewriting module: pdb [assertion]
     early skip of rewriting module: cmd [assertion]
@@ -63,521 +63,531 @@ args=('--headed', '--debug')
     early skip of rewriting module: _pyrepl.types [assertion]
     early skip of rewriting module: _pyrepl.trace [assertion]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
-          plugin_name: 2143239823312
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
+          plugin_name: 2064356892624
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.config.Config object at 0x000001F3030C7A10>
+          plugin: <_pytest.config.Config object at 0x000001E0A5427A10>
           plugin_name: pytestconfig
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.mark' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
           plugin_name: mark
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.main' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\main.py'>
           plugin_name: main
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.runner' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\runner.py'>
           plugin_name: runner
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.fixtures' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\fixtures.py'>
           plugin_name: fixtures
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.helpconfig' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\helpconfig.py'>
           plugin_name: helpconfig
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.python' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\python.py'>
           plugin_name: python
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.terminal' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\terminal.py'>
           plugin_name: terminal
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.debugging' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\debugging.py'>
           plugin_name: debugging
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.unittest' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\unittest.py'>
           plugin_name: unittest
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.capture' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\capture.py'>
           plugin_name: capture
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.skipping' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\skipping.py'>
           plugin_name: skipping
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.legacypath' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\legacypath.py'>
           plugin_name: legacypath
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.tmpdir' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\tmpdir.py'>
           plugin_name: tmpdir
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.monkeypatch' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
           plugin_name: monkeypatch
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.recwarn' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\recwarn.py'>
           plugin_name: recwarn
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.pastebin' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\pastebin.py'>
           plugin_name: pastebin
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.assertion' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
           plugin_name: assertion
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.junitxml' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\junitxml.py'>
           plugin_name: junitxml
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.doctest' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\doctest.py'>
           plugin_name: doctest
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.cacheprovider' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
           plugin_name: cacheprovider
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.setuponly' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\setuponly.py'>
           plugin_name: setuponly
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.setupplan' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\setupplan.py'>
           plugin_name: setupplan
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.stepwise' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\stepwise.py'>
           plugin_name: stepwise
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.unraisableexception' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
           plugin_name: unraisableexception
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.threadexception' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\threadexception.py'>
           plugin_name: threadexception
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.warnings' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\warnings.py'>
           plugin_name: warnings
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.logging' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\logging.py'>
           plugin_name: logging
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.reports' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\reports.py'>
           plugin_name: reports
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.faulthandler' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\faulthandler.py'>
           plugin_name: faulthandler
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.subtests' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\subtests.py'>
           plugin_name: subtests
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'pytest_base_url.plugin' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_base_url\\plugin.py'>
           plugin_name: base_url
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'pytest_html.plugin' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_html\\plugin.py'>
           plugin_name: html
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'pytest_html.fixtures' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_html\\fixtures.py'>
           plugin_name: html_fixtures
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'pytest_metadata.plugin' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
           plugin_name: metadata
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'pytest_playwright.pytest_playwright' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py'>
           plugin_name: playwright
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ZIA-KA~1\\\\AppData\\\\Local\\\\Temp\\\\tmp18btt48i' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ZIA-KA~1\\\\AppData\\\\Local\\\\Temp\\\\tmp2lfz04gu' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ZIA-KA~1\\\\AppData\\\\Local\\\\Temp\\\\tmphsnqg7_o' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ZIA-KA~1\\\\AppData\\\\Local\\\\Temp\\\\tmp0rherzds' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
           plugin_name: capturemanager
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'conftest' from 'E:\\workspace\\playwright-practice\\conftest.py'>
           plugin_name: E:\workspace\playwright-practice\conftest.py
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'E:\\workspace\\playwright-practice\\tests\\conftest.py'>
+          plugin_name: E:\workspace\playwright-practice\tests\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
           plugin_name: session
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001F305E91010>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001E0A81E5550>
           plugin_name: lfplugin
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001F305E90EC0>
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001E0A81E5400>
           plugin_name: nfplugin
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x000001F305E91E80>
-          plugin_name: 2143287844480
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x000001E0A81E63C0>
+          plugin_name: 2064404865984
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
           plugin_name: legacypath-tmpdir
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.terminal.TerminalReporter object at 0x000001F305E93CB0>
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001E0A82D82F0>
           plugin_name: terminalreporter
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
     matched marked file '_pytest.terminalprogress' (from '_pytest.terminalprogress') [assertion]
     find_module called for: _pytest.terminalprogress [assertion]
     found cached rewritten pyc for E:\workspace\playwright-practice\venv1\Lib\site-packages\_pytest\terminalprogress.py [assertion]
       pytest_configure [hook]
-          config: <_pytest.config.Config object at 0x000001F3030C7A10>
+          config: <_pytest.config.Config object at 0x000001E0A5427A10>
         pytest_plugin_registered [hook]
-            plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x000001F305FF86E0>
+            plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x000001E0A82D8C20>
             plugin_name: terminalprogress-plugin
-            manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+            manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
         finish pytest_plugin_registered --> [] [hook]
       finish pytest_configure --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.terminalprogress' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\terminalprogress.py'>
           plugin_name: terminalprogress
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.logging.LoggingPlugin object at 0x000001F305FF8980>
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001E0A82D8EC0>
           plugin_name: logging-plugin
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
     finish pytest_configure --> [] [hook]
     pytest_sessionstart [hook]
         session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
       pytest_plugin_registered [hook]
-          plugin: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
-          plugin_name: 2143239823312
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
+          plugin_name: 2064356892624
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.config.Config object at 0x000001F3030C7A10>
+          plugin: <_pytest.config.Config object at 0x000001E0A5427A10>
           plugin_name: pytestconfig
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.mark' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
           plugin_name: mark
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.main' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\main.py'>
           plugin_name: main
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.runner' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\runner.py'>
           plugin_name: runner
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.fixtures' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\fixtures.py'>
           plugin_name: fixtures
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.helpconfig' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\helpconfig.py'>
           plugin_name: helpconfig
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.python' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\python.py'>
           plugin_name: python
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.terminal' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\terminal.py'>
           plugin_name: terminal
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.debugging' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\debugging.py'>
           plugin_name: debugging
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.unittest' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\unittest.py'>
           plugin_name: unittest
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.capture' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\capture.py'>
           plugin_name: capture
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.skipping' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\skipping.py'>
           plugin_name: skipping
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.legacypath' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\legacypath.py'>
           plugin_name: legacypath
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.tmpdir' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\tmpdir.py'>
           plugin_name: tmpdir
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.monkeypatch' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
           plugin_name: monkeypatch
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.recwarn' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\recwarn.py'>
           plugin_name: recwarn
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.pastebin' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\pastebin.py'>
           plugin_name: pastebin
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.assertion' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
           plugin_name: assertion
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.junitxml' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\junitxml.py'>
           plugin_name: junitxml
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.doctest' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\doctest.py'>
           plugin_name: doctest
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.cacheprovider' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
           plugin_name: cacheprovider
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.setuponly' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\setuponly.py'>
           plugin_name: setuponly
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.setupplan' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\setupplan.py'>
           plugin_name: setupplan
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.stepwise' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\stepwise.py'>
           plugin_name: stepwise
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.unraisableexception' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
           plugin_name: unraisableexception
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.threadexception' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\threadexception.py'>
           plugin_name: threadexception
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.warnings' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\warnings.py'>
           plugin_name: warnings
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.logging' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\logging.py'>
           plugin_name: logging
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.reports' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\reports.py'>
           plugin_name: reports
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.faulthandler' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\faulthandler.py'>
           plugin_name: faulthandler
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.subtests' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\subtests.py'>
           plugin_name: subtests
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'pytest_base_url.plugin' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_base_url\\plugin.py'>
           plugin_name: base_url
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'pytest_html.plugin' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_html\\plugin.py'>
           plugin_name: html
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'pytest_html.fixtures' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_html\\fixtures.py'>
           plugin_name: html_fixtures
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'pytest_metadata.plugin' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
           plugin_name: metadata
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'pytest_playwright.pytest_playwright' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py'>
           plugin_name: playwright
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       early skip of rewriting module: _ast_unparse [assertion]
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ZIA-KA~1\\\\AppData\\\\Local\\\\Temp\\\\tmp18btt48i' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ZIA-KA~1\\\\AppData\\\\Local\\\\Temp\\\\tmp2lfz04gu' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ZIA-KA~1\\\\AppData\\\\Local\\\\Temp\\\\tmphsnqg7_o' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\ZIA-KA~1\\\\AppData\\\\Local\\\\Temp\\\\tmp0rherzds' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
           plugin_name: capturemanager
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module 'conftest' from 'E:\\workspace\\playwright-practice\\conftest.py'>
           plugin_name: E:\workspace\playwright-practice\conftest.py
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'E:\\workspace\\playwright-practice\\tests\\conftest.py'>
+          plugin_name: E:\workspace\playwright-practice\tests\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
           plugin_name: session
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001F305E91010>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001E0A81E5550>
           plugin_name: lfplugin
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001F305E90EC0>
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001E0A81E5400>
           plugin_name: nfplugin
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x000001F305E91E80>
-          plugin_name: 2143287844480
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x000001E0A81E63C0>
+          plugin_name: 2064404865984
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
           plugin_name: legacypath-tmpdir
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.terminal.TerminalReporter object at 0x000001F305E93CB0>
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001E0A82D82F0>
           plugin_name: terminalreporter
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x000001F305FF86E0>
+          plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x000001E0A82D8C20>
           plugin_name: terminalprogress-plugin
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.terminalprogress' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\terminalprogress.py'>
           plugin_name: terminalprogress
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.logging.LoggingPlugin object at 0x000001F305FF8980>
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001E0A82D8EC0>
           plugin_name: logging-plugin
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.fixtures.FixtureManager object at 0x000001F305FF9160>
+          plugin: <_pytest.fixtures.FixtureManager object at 0x000001E0A82D96A0>
           plugin_name: funcmanage
-          manager: <_pytest.config.PytestPluginManager object at 0x000001F3030C5FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x000001E0A5425FD0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_html_report_title [hook]
-          report: <pytest_html.report_data.ReportData object at 0x000001F305E91BE0>
+          report: <pytest_html.report_data.ReportData object at 0x000001E0A81E6120>
       finish pytest_html_report_title --> [] [hook]
       pytest_html_results_table_header [hook]
           cells: ['<th class="sortable" data-column-type="result">Result</th>', '<th class="sortable" data-column-type="testId">Test</th>', '<th class="sortable" data-column-type="duration">Duration</th>', '<th>Links</th>']
       finish pytest_html_results_table_header --> [] [hook]
       pytest_report_header [hook]
-          config: <_pytest.config.Config object at 0x000001F3030C7A10>
+          config: <_pytest.config.Config object at 0x000001E0A5427A10>
           start_path: E:\workspace\playwright-practice
           startdir: E:\workspace\playwright-practice
-      finish pytest_report_header --> [['rootdir: E:\\workspace\\playwright-practice', 'configfile: pytest.ini', 'testpaths: tests, --slowmo=200', 'plugins: base-url-2.1.0, html-4.1.1, metadata-3.1.1, playwright-0.7.2'], ['using: pytest-9.0.2', 'registered third-party plugins:', '  pytest-base-url-2.1.0 at E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_base_url\\plugin.py', '  pytest-html-4.1.1 at E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_html\\plugin.py', '  pytest-html-4.1.1 at E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_html\\fixtures.py', '  pytest-metadata-3.1.1 at E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_metadata\\plugin.py', '  pytest-playwright-0.7.2 at E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py']] [hook]
+      finish pytest_report_header --> [['rootdir: E:\\workspace\\playwright-practice', 'configfile: pytest.ini', 'plugins: base-url-2.1.0, html-4.1.1, metadata-3.1.1, playwright-0.7.2'], ['using: pytest-9.0.2', 'registered third-party plugins:', '  pytest-base-url-2.1.0 at E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_base_url\\plugin.py', '  pytest-html-4.1.1 at E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_html\\plugin.py', '  pytest-html-4.1.1 at E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_html\\fixtures.py', '  pytest-metadata-3.1.1 at E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_metadata\\plugin.py', '  pytest-playwright-0.7.2 at E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py']] [hook]
     finish pytest_sessionstart --> [] [hook]
     pytest_collection [hook]
         session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
-    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['tests'] [collection]
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['.\\tests\\test_recorded.py'] [collection]
         pytest_collectstart [hook]
             collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
         finish pytest_collectstart --> [] [hook]
         pytest_make_collect_report [hook]
             collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
-        processing argument CollectionArgument(path=WindowsPath('E:/workspace/playwright-practice/tests'), parts=[], parametrization=None, module_name=None, original_index=0) [collection]
+        processing argument CollectionArgument(path=WindowsPath('E:/workspace/playwright-practice/tests/test_recorded.py'), parts=[], parametrization=None, module_name=None, original_index=0) [collection]
             pytest_collect_directory [hook]
                 path: E:\workspace\playwright-practice
                 parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
@@ -588,12 +598,12 @@ args=('--headed', '--debug')
             pytest_make_collect_report [hook]
                 collector: <Dir playwright-practice>
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\.git
                   path: E:\workspace\playwright-practice\.git
               finish pytest_ignore_collect --> True [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\.gitignore
                   path: E:\workspace\playwright-practice\.gitignore
               finish pytest_ignore_collect --> None [hook]
@@ -603,17 +613,26 @@ args=('--headed', '--debug')
                   path: E:\workspace\playwright-practice\.gitignore
               finish pytest_collect_file --> [] [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\.pytest_cache
                   path: E:\workspace\playwright-practice\.pytest_cache
               finish pytest_ignore_collect --> True [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\__pycache__
                   path: E:\workspace\playwright-practice\__pycache__
               finish pytest_ignore_collect --> True [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                  collection_path: E:\workspace\playwright-practice\config
+                  path: E:\workspace\playwright-practice\config
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: E:\workspace\playwright-practice\config
+                  parent: <Dir playwright-practice>
+              finish pytest_collect_directory --> <Dir config> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\conftest.py
                   path: E:\workspace\playwright-practice\conftest.py
               finish pytest_ignore_collect --> None [hook]
@@ -623,7 +642,7 @@ args=('--headed', '--debug')
                   path: E:\workspace\playwright-practice\conftest.py
               finish pytest_collect_file --> [] [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\first-file.py
                   path: E:\workspace\playwright-practice\first-file.py
               finish pytest_ignore_collect --> None [hook]
@@ -633,7 +652,7 @@ args=('--headed', '--debug')
                   path: E:\workspace\playwright-practice\first-file.py
               finish pytest_collect_file --> [] [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\pages
                   path: E:\workspace\playwright-practice\pages
               finish pytest_ignore_collect --> None [hook]
@@ -642,7 +661,7 @@ args=('--headed', '--debug')
                   parent: <Dir playwright-practice>
               finish pytest_collect_directory --> <Dir pages> [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\pytest.ini
                   path: E:\workspace\playwright-practice\pytest.ini
               finish pytest_ignore_collect --> None [hook]
@@ -652,7 +671,7 @@ args=('--headed', '--debug')
                   path: E:\workspace\playwright-practice\pytest.ini
               finish pytest_collect_file --> [] [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\pytestdebug.log
                   path: E:\workspace\playwright-practice\pytestdebug.log
               finish pytest_ignore_collect --> None [hook]
@@ -662,7 +681,7 @@ args=('--headed', '--debug')
                   path: E:\workspace\playwright-practice\pytestdebug.log
               finish pytest_collect_file --> [] [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\reports
                   path: E:\workspace\playwright-practice\reports
               finish pytest_ignore_collect --> None [hook]
@@ -671,7 +690,7 @@ args=('--headed', '--debug')
                   parent: <Dir playwright-practice>
               finish pytest_collect_directory --> <Dir reports> [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\requirements.txt
                   path: E:\workspace\playwright-practice\requirements.txt
               finish pytest_ignore_collect --> None [hook]
@@ -681,7 +700,7 @@ args=('--headed', '--debug')
                   path: E:\workspace\playwright-practice\requirements.txt
               finish pytest_collect_file --> [] [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\test-data
                   path: E:\workspace\playwright-practice\test-data
               finish pytest_ignore_collect --> None [hook]
@@ -690,7 +709,7 @@ args=('--headed', '--debug')
                   parent: <Dir playwright-practice>
               finish pytest_collect_directory --> <Dir test-data> [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\test_sample.py
                   path: E:\workspace\playwright-practice\test_sample.py
               finish pytest_ignore_collect --> None [hook]
@@ -709,7 +728,7 @@ args=('--headed', '--debug')
                   parent: <Dir playwright-practice>
               finish pytest_collect_directory --> <Dir tests> [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\trace.zip
                   path: E:\workspace\playwright-practice\trace.zip
               finish pytest_ignore_collect --> None [hook]
@@ -719,7 +738,7 @@ args=('--headed', '--debug')
                   path: E:\workspace\playwright-practice\trace.zip
               finish pytest_collect_file --> [] [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\utils
                   path: E:\workspace\playwright-practice\utils
               finish pytest_ignore_collect --> None [hook]
@@ -728,516 +747,160 @@ args=('--headed', '--debug')
                   parent: <Dir playwright-practice>
               finish pytest_collect_directory --> <Dir utils> [hook]
               pytest_ignore_collect [hook]
-                  config: <_pytest.config.Config object at 0x000001F3030C7A10>
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
                   collection_path: E:\workspace\playwright-practice\venv1
                   path: E:\workspace\playwright-practice\venv1
               finish pytest_ignore_collect --> True [hook]
-            finish pytest_make_collect_report --> <CollectReport '.' lenresult=6 outcome='passed'> [hook]
+            finish pytest_make_collect_report --> <CollectReport '.' lenresult=7 outcome='passed'> [hook]
+            pytest_collectstart [hook]
+                collector: <Dir tests>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Dir tests>
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                  collection_path: E:\workspace\playwright-practice\tests\__pycache__
+                  path: E:\workspace\playwright-practice\tests\__pycache__
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                  collection_path: E:\workspace\playwright-practice\tests\api
+                  path: E:\workspace\playwright-practice\tests\api
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: E:\workspace\playwright-practice\tests\api
+                  parent: <Dir tests>
+              finish pytest_collect_directory --> <Dir api> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                  collection_path: E:\workspace\playwright-practice\tests\conftest.py
+                  path: E:\workspace\playwright-practice\tests\conftest.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir tests>
+                  file_path: E:\workspace\playwright-practice\tests\conftest.py
+                  path: E:\workspace\playwright-practice\tests\conftest.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                  collection_path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
+                  path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir tests>
+                  file_path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
+                  path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Dir tests>
+                    module_path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
+                    path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
+                finish pytest_pycollect_makemodule --> <Module test_data_driven_testing.py> [hook]
+              finish pytest_collect_file --> [<Module test_data_driven_testing.py>] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                  collection_path: E:\workspace\playwright-practice\tests\test_e2e.py
+                  path: E:\workspace\playwright-practice\tests\test_e2e.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir tests>
+                  file_path: E:\workspace\playwright-practice\tests\test_e2e.py
+                  path: E:\workspace\playwright-practice\tests\test_e2e.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Dir tests>
+                    module_path: E:\workspace\playwright-practice\tests\test_e2e.py
+                    path: E:\workspace\playwright-practice\tests\test_e2e.py
+                finish pytest_pycollect_makemodule --> <Module test_e2e.py> [hook]
+              finish pytest_collect_file --> [<Module test_e2e.py>] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                  collection_path: E:\workspace\playwright-practice\tests\test_google_search.py
+                  path: E:\workspace\playwright-practice\tests\test_google_search.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir tests>
+                  file_path: E:\workspace\playwright-practice\tests\test_google_search.py
+                  path: E:\workspace\playwright-practice\tests\test_google_search.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Dir tests>
+                    module_path: E:\workspace\playwright-practice\tests\test_google_search.py
+                    path: E:\workspace\playwright-practice\tests\test_google_search.py
+                finish pytest_pycollect_makemodule --> <Module test_google_search.py> [hook]
+              finish pytest_collect_file --> [<Module test_google_search.py>] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                  collection_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
+                  path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir tests>
+                  file_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
+                  path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Dir tests>
+                    module_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
+                    path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
+                finish pytest_pycollect_makemodule --> <Module test_login_orangeHRM copy.py> [hook]
+              finish pytest_collect_file --> [<Module test_login_orangeHRM copy.py>] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                  collection_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
+                  path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir tests>
+                  file_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
+                  path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Dir tests>
+                    module_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
+                    path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
+                finish pytest_pycollect_makemodule --> <Module test_login_orangeHRM.py> [hook]
+              finish pytest_collect_file --> [<Module test_login_orangeHRM.py>] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                  collection_path: E:\workspace\playwright-practice\tests\test_mobile_testing.py
+                  path: E:\workspace\playwright-practice\tests\test_mobile_testing.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir tests>
+                  file_path: E:\workspace\playwright-practice\tests\test_mobile_testing.py
+                  path: E:\workspace\playwright-practice\tests\test_mobile_testing.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Dir tests>
+                    module_path: E:\workspace\playwright-practice\tests\test_mobile_testing.py
+                    path: E:\workspace\playwright-practice\tests\test_mobile_testing.py
+                finish pytest_pycollect_makemodule --> <Module test_mobile_testing.py> [hook]
+              finish pytest_collect_file --> [<Module test_mobile_testing.py>] [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir tests>
+                  file_path: E:\workspace\playwright-practice\tests\test_recorded.py
+                  path: E:\workspace\playwright-practice\tests\test_recorded.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Dir tests>
+                    module_path: E:\workspace\playwright-practice\tests\test_recorded.py
+                    path: E:\workspace\playwright-practice\tests\test_recorded.py
+                finish pytest_pycollect_makemodule --> <Module test_recorded.py> [hook]
+              finish pytest_collect_file --> [<Module test_recorded.py>] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                  collection_path: E:\workspace\playwright-practice\tests\test_url_testing.py
+                  path: E:\workspace\playwright-practice\tests\test_url_testing.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir tests>
+                  file_path: E:\workspace\playwright-practice\tests\test_url_testing.py
+                  path: E:\workspace\playwright-practice\tests\test_url_testing.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Dir tests>
+                    module_path: E:\workspace\playwright-practice\tests\test_url_testing.py
+                    path: E:\workspace\playwright-practice\tests\test_url_testing.py
+                finish pytest_pycollect_makemodule --> <Module test_url_testing.py> [hook]
+              finish pytest_collect_file --> [<Module test_url_testing.py>] [hook]
+            finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=9 outcome='passed'> [hook]
         finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
         pytest_collectreport [hook]
             report: <CollectReport '' lenresult=1 outcome='passed'>
         finish pytest_collectreport --> [] [hook]
-    genitems <Dir tests> [collection]
-      pytest_collectstart [hook]
-          collector: <Dir tests>
-      finish pytest_collectstart --> [] [hook]
-      pytest_make_collect_report [hook]
-          collector: <Dir tests>
-        pytest_ignore_collect [hook]
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-            collection_path: E:\workspace\playwright-practice\tests\__pycache__
-            path: E:\workspace\playwright-practice\tests\__pycache__
-        finish pytest_ignore_collect --> True [hook]
-        pytest_ignore_collect [hook]
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-            collection_path: E:\workspace\playwright-practice\tests\api
-            path: E:\workspace\playwright-practice\tests\api
-        finish pytest_ignore_collect --> None [hook]
-        pytest_collect_directory [hook]
-            path: E:\workspace\playwright-practice\tests\api
-            parent: <Dir tests>
-        finish pytest_collect_directory --> <Dir api> [hook]
-        pytest_ignore_collect [hook]
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-            collection_path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
-            path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
-        finish pytest_ignore_collect --> None [hook]
-        pytest_collect_file [hook]
-            parent: <Dir tests>
-            file_path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
-            path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
-          pytest_pycollect_makemodule [hook]
-              parent: <Dir tests>
-              module_path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
-              path: E:\workspace\playwright-practice\tests\test_data_driven_testing.py
-          finish pytest_pycollect_makemodule --> <Module test_data_driven_testing.py> [hook]
-        finish pytest_collect_file --> [<Module test_data_driven_testing.py>] [hook]
-        pytest_ignore_collect [hook]
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-            collection_path: E:\workspace\playwright-practice\tests\test_google_search.py
-            path: E:\workspace\playwright-practice\tests\test_google_search.py
-        finish pytest_ignore_collect --> None [hook]
-        pytest_collect_file [hook]
-            parent: <Dir tests>
-            file_path: E:\workspace\playwright-practice\tests\test_google_search.py
-            path: E:\workspace\playwright-practice\tests\test_google_search.py
-          pytest_pycollect_makemodule [hook]
-              parent: <Dir tests>
-              module_path: E:\workspace\playwright-practice\tests\test_google_search.py
-              path: E:\workspace\playwright-practice\tests\test_google_search.py
-          finish pytest_pycollect_makemodule --> <Module test_google_search.py> [hook]
-        finish pytest_collect_file --> [<Module test_google_search.py>] [hook]
-        pytest_ignore_collect [hook]
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-            collection_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
-            path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
-        finish pytest_ignore_collect --> None [hook]
-        pytest_collect_file [hook]
-            parent: <Dir tests>
-            file_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
-            path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
-          pytest_pycollect_makemodule [hook]
-              parent: <Dir tests>
-              module_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
-              path: E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py
-          finish pytest_pycollect_makemodule --> <Module test_login_orangeHRM copy.py> [hook]
-        finish pytest_collect_file --> [<Module test_login_orangeHRM copy.py>] [hook]
-        pytest_ignore_collect [hook]
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-            collection_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
-            path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
-        finish pytest_ignore_collect --> None [hook]
-        pytest_collect_file [hook]
-            parent: <Dir tests>
-            file_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
-            path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
-          pytest_pycollect_makemodule [hook]
-              parent: <Dir tests>
-              module_path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
-              path: E:\workspace\playwright-practice\tests\test_login_orangeHRM.py
-          finish pytest_pycollect_makemodule --> <Module test_login_orangeHRM.py> [hook]
-        finish pytest_collect_file --> [<Module test_login_orangeHRM.py>] [hook]
-        pytest_ignore_collect [hook]
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-            collection_path: E:\workspace\playwright-practice\tests\test_recorded.py
-            path: E:\workspace\playwright-practice\tests\test_recorded.py
-        finish pytest_ignore_collect --> None [hook]
-        pytest_collect_file [hook]
-            parent: <Dir tests>
-            file_path: E:\workspace\playwright-practice\tests\test_recorded.py
-            path: E:\workspace\playwright-practice\tests\test_recorded.py
-          pytest_pycollect_makemodule [hook]
-              parent: <Dir tests>
-              module_path: E:\workspace\playwright-practice\tests\test_recorded.py
-              path: E:\workspace\playwright-practice\tests\test_recorded.py
-          finish pytest_pycollect_makemodule --> <Module test_recorded.py> [hook]
-        finish pytest_collect_file --> [<Module test_recorded.py>] [hook]
-      finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=6 outcome='passed'> [hook]
-    genitems <Dir api> [collection]
-      pytest_collectstart [hook]
-          collector: <Dir api>
-      finish pytest_collectstart --> [] [hook]
-      pytest_make_collect_report [hook]
-          collector: <Dir api>
-        pytest_ignore_collect [hook]
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-            collection_path: E:\workspace\playwright-practice\tests\api\__pycache__
-            path: E:\workspace\playwright-practice\tests\api\__pycache__
-        finish pytest_ignore_collect --> True [hook]
-        pytest_ignore_collect [hook]
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-            collection_path: E:\workspace\playwright-practice\tests\api\test_jsonplaceholder_get_api.py
-            path: E:\workspace\playwright-practice\tests\api\test_jsonplaceholder_get_api.py
-        finish pytest_ignore_collect --> None [hook]
-        pytest_collect_file [hook]
-            parent: <Dir api>
-            file_path: E:\workspace\playwright-practice\tests\api\test_jsonplaceholder_get_api.py
-            path: E:\workspace\playwright-practice\tests\api\test_jsonplaceholder_get_api.py
-          pytest_pycollect_makemodule [hook]
-              parent: <Dir api>
-              module_path: E:\workspace\playwright-practice\tests\api\test_jsonplaceholder_get_api.py
-              path: E:\workspace\playwright-practice\tests\api\test_jsonplaceholder_get_api.py
-          finish pytest_pycollect_makemodule --> <Module test_jsonplaceholder_get_api.py> [hook]
-        finish pytest_collect_file --> [<Module test_jsonplaceholder_get_api.py>] [hook]
-        pytest_ignore_collect [hook]
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-            collection_path: E:\workspace\playwright-practice\tests\api\test_reqres_get_api.py
-            path: E:\workspace\playwright-practice\tests\api\test_reqres_get_api.py
-        finish pytest_ignore_collect --> None [hook]
-        pytest_collect_file [hook]
-            parent: <Dir api>
-            file_path: E:\workspace\playwright-practice\tests\api\test_reqres_get_api.py
-            path: E:\workspace\playwright-practice\tests\api\test_reqres_get_api.py
-          pytest_pycollect_makemodule [hook]
-              parent: <Dir api>
-              module_path: E:\workspace\playwright-practice\tests\api\test_reqres_get_api.py
-              path: E:\workspace\playwright-practice\tests\api\test_reqres_get_api.py
-          finish pytest_pycollect_makemodule --> <Module test_reqres_get_api.py> [hook]
-        finish pytest_collect_file --> [<Module test_reqres_get_api.py>] [hook]
-      finish pytest_make_collect_report --> <CollectReport 'tests/api' lenresult=2 outcome='passed'> [hook]
-    genitems <Module test_jsonplaceholder_get_api.py> [collection]
-      pytest_collectstart [hook]
-          collector: <Module test_jsonplaceholder_get_api.py>
-      finish pytest_collectstart --> [] [hook]
-      pytest_make_collect_report [hook]
-          collector: <Module test_jsonplaceholder_get_api.py>
-      find_module called for: test_jsonplaceholder_get_api [assertion]
-      matched test file 'E:\\workspace\\playwright-practice\\tests\\api\\test_jsonplaceholder_get_api.py' [assertion]
-      found cached rewritten pyc for E:\workspace\playwright-practice\tests\api\test_jsonplaceholder_get_api.py [assertion]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_jsonplaceholder_get_api.py>
-            name: @py_builtins
-            obj: <module 'builtins' (built-in)>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_jsonplaceholder_get_api.py>
-            name: @pytest_ar
-            obj: <module '_pytest.assertion.rewrite' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_jsonplaceholder_get_api.py>
-            name: playwright
-            obj: <module 'playwright' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\playwright\\__init__.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_jsonplaceholder_get_api.py>
-            name: test_api
-            obj: <function test_api at 0x000001F306026140>
-          pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001F305FFA660>
-          finish pytest_generate_tests --> [] [hook]
-        finish pytest_pycollect_makeitem --> [<Function test_api>] [hook]
-      finish pytest_make_collect_report --> <CollectReport 'tests/api/test_jsonplaceholder_get_api.py' lenresult=1 outcome='passed'> [hook]
-    genitems <Function test_api> [collection]
-      pytest_itemcollected [hook]
-          item: <Function test_api>
-      finish pytest_itemcollected --> [] [hook]
-      pytest_collectreport [hook]
-          report: <CollectReport 'tests/api/test_jsonplaceholder_get_api.py' lenresult=1 outcome='passed'>
-      finish pytest_collectreport --> [] [hook]
-    genitems <Module test_reqres_get_api.py> [collection]
-      pytest_collectstart [hook]
-          collector: <Module test_reqres_get_api.py>
-      finish pytest_collectstart --> [] [hook]
-      pytest_make_collect_report [hook]
-          collector: <Module test_reqres_get_api.py>
-      find_module called for: test_reqres_get_api [assertion]
-      matched test file 'E:\\workspace\\playwright-practice\\tests\\api\\test_reqres_get_api.py' [assertion]
-      _read_pyc(E:\workspace\playwright-practice\tests\api\test_reqres_get_api.py): out of date [assertion]
-      rewriting WindowsPath('E:/workspace/playwright-practice/tests/api/test_reqres_get_api.py') [assertion]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_reqres_get_api.py>
-            name: @py_builtins
-            obj: <module 'builtins' (built-in)>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_reqres_get_api.py>
-            name: @pytest_ar
-            obj: <module '_pytest.assertion.rewrite' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_reqres_get_api.py>
-            name: sync_playwright
-            obj: <function sync_playwright at 0x000001F30559AA30>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_reqres_get_api.py>
-            name: test_get_api
-            obj: <function test_get_api at 0x000001F306026A30>
-          pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001F306005450>
-          finish pytest_generate_tests --> [] [hook]
-        finish pytest_pycollect_makeitem --> [<Function test_get_api>] [hook]
-      finish pytest_make_collect_report --> <CollectReport 'tests/api/test_reqres_get_api.py' lenresult=1 outcome='passed'> [hook]
-    genitems <Function test_get_api> [collection]
-      pytest_itemcollected [hook]
-          item: <Function test_get_api>
-      finish pytest_itemcollected --> [] [hook]
-      pytest_collectreport [hook]
-          report: <CollectReport 'tests/api/test_reqres_get_api.py' lenresult=1 outcome='passed'>
-      finish pytest_collectreport --> [] [hook]
-      pytest_collectreport [hook]
-          report: <CollectReport 'tests/api' lenresult=2 outcome='passed'>
-      finish pytest_collectreport --> [] [hook]
-    genitems <Module test_data_driven_testing.py> [collection]
-      pytest_collectstart [hook]
-          collector: <Module test_data_driven_testing.py>
-      finish pytest_collectstart --> [] [hook]
-      pytest_make_collect_report [hook]
-          collector: <Module test_data_driven_testing.py>
-      find_module called for: test_data_driven_testing [assertion]
-      matched test file 'E:\\workspace\\playwright-practice\\tests\\test_data_driven_testing.py' [assertion]
-      _read_pyc(E:\workspace\playwright-practice\tests\test_data_driven_testing.py): out of date [assertion]
-      rewriting WindowsPath('E:/workspace/playwright-practice/tests/test_data_driven_testing.py') [assertion]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_data_driven_testing.py>
-            name: @py_builtins
-            obj: <module 'builtins' (built-in)>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_data_driven_testing.py>
-            name: @pytest_ar
-            obj: <module '_pytest.assertion.rewrite' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_data_driven_testing.py>
-            name: re
-            obj: <module 're' from 'C:\\Users\\zia-kayani\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\re\\__init__.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_data_driven_testing.py>
-            name: pytest
-            obj: <module 'pytest' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\pytest\\__init__.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_data_driven_testing.py>
-            name: Page
-            obj: <class 'playwright.sync_api._generated.Page'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_data_driven_testing.py>
-            name: expect
-            obj: <playwright.sync_api.Expect object at 0x000001F30555AE40>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_data_driven_testing.py>
-            name: get_csv_data
-            obj: <function get_csv_data at 0x000001F306026FB0>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_data_driven_testing.py>
-            name: get_json_data
-            obj: <function get_json_data at 0x000001F306027060>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_data_driven_testing.py>
-            name: test_example
-            obj: <function test_example at 0x000001F306027270>
-          pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001F306004050>
-            pytest_make_parametrize_id [hook]
-                config: <_pytest.config.Config object at 0x000001F3030C7A10>
-                val: Admin
-                argname: username
-            finish pytest_make_parametrize_id --> None [hook]
-            pytest_make_parametrize_id [hook]
-                config: <_pytest.config.Config object at 0x000001F3030C7A10>
-                val: admin123
-                argname: password
-            finish pytest_make_parametrize_id --> None [hook]
-            pytest_make_parametrize_id [hook]
-                config: <_pytest.config.Config object at 0x000001F3030C7A10>
-                val: Test1
-                argname: username
-            finish pytest_make_parametrize_id --> None [hook]
-            pytest_make_parametrize_id [hook]
-                config: <_pytest.config.Config object at 0x000001F3030C7A10>
-                val: admin345
-                argname: password
-            finish pytest_make_parametrize_id --> None [hook]
-            pytest_make_parametrize_id [hook]
-                config: <_pytest.config.Config object at 0x000001F3030C7A10>
-                val: Test2
-                argname: username
-            finish pytest_make_parametrize_id --> None [hook]
-            pytest_make_parametrize_id [hook]
-                config: <_pytest.config.Config object at 0x000001F3030C7A10>
-                val: admin567
-                argname: password
-            finish pytest_make_parametrize_id --> None [hook]
-          finish pytest_generate_tests --> [] [hook]
-        finish pytest_pycollect_makeitem --> [<Function test_example[Admin-admin123]>, <Function test_example[Test1-admin345]>, <Function test_example[Test2-admin567]>] [hook]
-      finish pytest_make_collect_report --> <CollectReport 'tests/test_data_driven_testing.py' lenresult=3 outcome='passed'> [hook]
-    genitems <Function test_example[Admin-admin123]> [collection]
-      pytest_itemcollected [hook]
-          item: <Function test_example[Admin-admin123]>
-      finish pytest_itemcollected --> [] [hook]
-    genitems <Function test_example[Test1-admin345]> [collection]
-      pytest_itemcollected [hook]
-          item: <Function test_example[Test1-admin345]>
-      finish pytest_itemcollected --> [] [hook]
-    genitems <Function test_example[Test2-admin567]> [collection]
-      pytest_itemcollected [hook]
-          item: <Function test_example[Test2-admin567]>
-      finish pytest_itemcollected --> [] [hook]
-      pytest_collectreport [hook]
-          report: <CollectReport 'tests/test_data_driven_testing.py' lenresult=3 outcome='passed'>
-      finish pytest_collectreport --> [] [hook]
-    genitems <Module test_google_search.py> [collection]
-      pytest_collectstart [hook]
-          collector: <Module test_google_search.py>
-      finish pytest_collectstart --> [] [hook]
-      pytest_make_collect_report [hook]
-          collector: <Module test_google_search.py>
-      find_module called for: test_google_search [assertion]
-      matched test file 'E:\\workspace\\playwright-practice\\tests\\test_google_search.py' [assertion]
-      found cached rewritten pyc for E:\workspace\playwright-practice\tests\test_google_search.py [assertion]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_google_search.py>
-            name: @py_builtins
-            obj: <module 'builtins' (built-in)>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_google_search.py>
-            name: @pytest_ar
-            obj: <module '_pytest.assertion.rewrite' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_google_search.py>
-            name: re
-            obj: <module 're' from 'C:\\Users\\zia-kayani\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\re\\__init__.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_google_search.py>
-            name: expect
-            obj: <playwright.sync_api.Expect object at 0x000001F30555AE40>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_google_search.py>
-            name: test_google_search
-            obj: <function test_google_search at 0x000001F3060273D0>
-          pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001F305FD1810>
-          finish pytest_generate_tests --> [] [hook]
-        finish pytest_pycollect_makeitem --> [<Function test_google_search>] [hook]
-      finish pytest_make_collect_report --> <CollectReport 'tests/test_google_search.py' lenresult=1 outcome='passed'> [hook]
-    genitems <Function test_google_search> [collection]
-      pytest_itemcollected [hook]
-          item: <Function test_google_search>
-      finish pytest_itemcollected --> [] [hook]
-      pytest_collectreport [hook]
-          report: <CollectReport 'tests/test_google_search.py' lenresult=1 outcome='passed'>
-      finish pytest_collectreport --> [] [hook]
-    genitems <Module test_login_orangeHRM copy.py> [collection]
-      pytest_collectstart [hook]
-          collector: <Module test_login_orangeHRM copy.py>
-      finish pytest_collectstart --> [] [hook]
-      pytest_make_collect_report [hook]
-          collector: <Module test_login_orangeHRM copy.py>
-      find_module called for: test_login_orangeHRM copy [assertion]
-      matched test file 'E:\\workspace\\playwright-practice\\tests\\test_login_orangeHRM copy.py' [assertion]
-      found cached rewritten pyc for E:\workspace\playwright-practice\tests\test_login_orangeHRM copy.py [assertion]
-      early skip of rewriting module: pages [assertion]
-      early skip of rewriting module: pages.orangeHRM_login_page [assertion]
-      early skip of rewriting module: pages.orangeHRM_homepage_page [assertion]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM copy.py>
-            name: @py_builtins
-            obj: <module 'builtins' (built-in)>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM copy.py>
-            name: @pytest_ar
-            obj: <module '_pytest.assertion.rewrite' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM copy.py>
-            name: re
-            obj: <module 're' from 'C:\\Users\\zia-kayani\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\re\\__init__.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM copy.py>
-            name: Page
-            obj: <class 'playwright.sync_api._generated.Page'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM copy.py>
-            name: expect
-            obj: <playwright.sync_api.Expect object at 0x000001F30555AE40>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM copy.py>
-            name: LoginPage
-            obj: <class 'pages.orangeHRM_login_page.LoginPage'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM copy.py>
-            name: HomePage
-            obj: <class 'pages.orangeHRM_homepage_page.HomePage'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM copy.py>
-            name: test_example
-            obj: <function test_example at 0x000001F3060275E0>
-          pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001F305FD1810>
-          finish pytest_generate_tests --> [] [hook]
-        finish pytest_pycollect_makeitem --> [<Function test_example>] [hook]
-      finish pytest_make_collect_report --> <CollectReport 'tests/test_login_orangeHRM copy.py' lenresult=1 outcome='passed'> [hook]
-    genitems <Function test_example> [collection]
-      pytest_itemcollected [hook]
-          item: <Function test_example>
-      finish pytest_itemcollected --> [] [hook]
-      pytest_collectreport [hook]
-          report: <CollectReport 'tests/test_login_orangeHRM copy.py' lenresult=1 outcome='passed'>
-      finish pytest_collectreport --> [] [hook]
-    genitems <Module test_login_orangeHRM.py> [collection]
-      pytest_collectstart [hook]
-          collector: <Module test_login_orangeHRM.py>
-      finish pytest_collectstart --> [] [hook]
-      pytest_make_collect_report [hook]
-          collector: <Module test_login_orangeHRM.py>
-      find_module called for: test_login_orangeHRM [assertion]
-      matched test file 'E:\\workspace\\playwright-practice\\tests\\test_login_orangeHRM.py' [assertion]
-      _read_pyc(E:\workspace\playwright-practice\tests\test_login_orangeHRM.py): out of date [assertion]
-      rewriting WindowsPath('E:/workspace/playwright-practice/tests/test_login_orangeHRM.py') [assertion]
-      early skip of rewriting module: pages.admin_user_search [assertion]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM.py>
-            name: @py_builtins
-            obj: <module 'builtins' (built-in)>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM.py>
-            name: @pytest_ar
-            obj: <module '_pytest.assertion.rewrite' from 'E:\\workspace\\playwright-practice\\venv1\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM.py>
-            name: re
-            obj: <module 're' from 'C:\\Users\\zia-kayani\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\re\\__init__.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM.py>
-            name: Page
-            obj: <class 'playwright.sync_api._generated.Page'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM.py>
-            name: expect
-            obj: <playwright.sync_api.Expect object at 0x000001F30555AE40>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM.py>
-            name: LoginPage
-            obj: <class 'pages.orangeHRM_login_page.LoginPage'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM.py>
-            name: HomePage
-            obj: <class 'pages.orangeHRM_homepage_page.HomePage'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM.py>
-            name: AdminUserSearchPage
-            obj: <class 'pages.admin_user_search.AdminUserSearchPage'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_login_orangeHRM.py>
-            name: test_example
-            obj: <function test_example at 0x000001F3060403B0>
-          pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001F305FD6F90>
-          finish pytest_generate_tests --> [] [hook]
-        finish pytest_pycollect_makeitem --> [<Function test_example>] [hook]
-      finish pytest_make_collect_report --> <CollectReport 'tests/test_login_orangeHRM.py' lenresult=1 outcome='passed'> [hook]
-    genitems <Function test_example> [collection]
-      pytest_itemcollected [hook]
-          item: <Function test_example>
-      finish pytest_itemcollected --> [] [hook]
-      pytest_collectreport [hook]
-          report: <CollectReport 'tests/test_login_orangeHRM.py' lenresult=1 outcome='passed'>
-      finish pytest_collectreport --> [] [hook]
     genitems <Module test_recorded.py> [collection]
       pytest_collectstart [hook]
           collector: <Module test_recorded.py>
@@ -1245,7 +908,7 @@ args=('--headed', '--debug')
       pytest_make_collect_report [hook]
           collector: <Module test_recorded.py>
       find_module called for: test_recorded [assertion]
-      matched test file 'E:\\workspace\\playwright-practice\\tests\\test_recorded.py' [assertion]
+      matched test file (was specified on cmdline): 'E:\\workspace\\playwright-practice\\tests\\test_recorded.py' [assertion]
       found cached rewritten pyc for E:\workspace\playwright-practice\tests\test_recorded.py [assertion]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_recorded.py>
@@ -1259,817 +922,320 @@ args=('--headed', '--debug')
         finish pytest_pycollect_makeitem --> None [hook]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_recorded.py>
-            name: re
-            obj: <module 're' from 'C:\\Users\\zia-kayani\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\re\\__init__.py'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_recorded.py>
-            name: Page
-            obj: <class 'playwright.sync_api._generated.Page'>
-        finish pytest_pycollect_makeitem --> None [hook]
-        pytest_pycollect_makeitem [hook]
-            collector: <Module test_recorded.py>
             name: expect
-            obj: <playwright.sync_api.Expect object at 0x000001F30555AE40>
+            obj: <playwright.sync_api.Expect object at 0x000001E0A78BAE40>
         finish pytest_pycollect_makeitem --> None [hook]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_recorded.py>
-            name: test_example
-            obj: <function test_example at 0x000001F306040F60>
+            name: test_login_success
+            obj: <function test_login_success at 0x000001E0A832F5E0>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001F305FC2F10>
+              metafunc: <_pytest.python.Metafunc object at 0x000001E0A82DAE40>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x000001E0A5427A10>
+                val: chromium
+                argname: browser_name
+            finish pytest_make_parametrize_id --> None [hook]
           finish pytest_generate_tests --> [] [hook]
-        finish pytest_pycollect_makeitem --> [<Function test_example>] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_login_success[chromium]>] [hook]
       finish pytest_make_collect_report --> <CollectReport 'tests/test_recorded.py' lenresult=1 outcome='passed'> [hook]
-    genitems <Function test_example> [collection]
+    genitems <Function test_login_success[chromium]> [collection]
       pytest_itemcollected [hook]
-          item: <Function test_example>
+          item: <Function test_login_success[chromium]>
       finish pytest_itemcollected --> [] [hook]
       pytest_collectreport [hook]
           report: <CollectReport 'tests/test_recorded.py' lenresult=1 outcome='passed'>
       finish pytest_collectreport --> [] [hook]
-      pytest_collectreport [hook]
-          report: <CollectReport 'tests' lenresult=6 outcome='passed'>
-      finish pytest_collectreport --> [] [hook]
       pytest_collection_modifyitems [hook]
           session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
-          config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          items: [<Function test_api>, <Function test_get_api>, <Function test_example[Admin-admin123]>, <Function test_example[Test1-admin345]>, <Function test_example[Test2-admin567]>, <Function test_google_search>, <Function test_example>, <Function test_example>, <Function test_example>]
+          config: <_pytest.config.Config object at 0x000001E0A5427A10>
+          items: [<Function test_login_success[chromium]>]
       finish pytest_collection_modifyitems --> [] [hook]
       pytest_collection_finish [hook]
           session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
         pytest_report_collectionfinish [hook]
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-            items: [<Function test_api>, <Function test_get_api>, <Function test_example[Admin-admin123]>, <Function test_example[Test1-admin345]>, <Function test_example[Test2-admin567]>, <Function test_google_search>, <Function test_example>, <Function test_example>, <Function test_example>]
+            config: <_pytest.config.Config object at 0x000001E0A5427A10>
+            items: [<Function test_login_success[chromium]>]
             start_path: E:\workspace\playwright-practice
             startdir: E:\workspace\playwright-practice
         finish pytest_report_collectionfinish --> [] [hook]
       finish pytest_collection_finish --> [] [hook]
     finish pytest_collection --> None [hook]
     pytest_runtestloop [hook]
-        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=9>
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=1>
       pytest_runtest_protocol [hook]
-          item: <Function test_api>
-          nextitem: <Function test_get_api>
+          item: <Function test_login_success[chromium]>
+          nextitem: None
         pytest_runtest_logstart [hook]
-            nodeid: tests/api/test_jsonplaceholder_get_api.py::test_api
-            location: ('tests\\api\\test_jsonplaceholder_get_api.py', 2, 'test_api')
+            nodeid: tests/test_recorded.py::test_login_success[chromium]
+            location: ('tests\\test_recorded.py', 2, 'test_login_success[chromium]')
         finish pytest_runtest_logstart --> [] [hook]
         pytest_runtest_setup [hook]
-            item: <Function test_api>
+            item: <Function test_login_success[chromium]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='env' scope='session' baseid=''>
+              request: <SubRequest 'env' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> qa [hook]
           pytest_fixture_setup [hook]
               fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
-              request: <SubRequest 'base_url' for <Function test_api>>
-          finish pytest_fixture_setup -->  [hook]
+              request: <SubRequest 'base_url' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> https://opensource-demo.orangehrmlive.com [hook]
           pytest_fixture_setup [hook]
               fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
-              request: <SubRequest '_verify_url' for <Function test_api>>
+              request: <SubRequest '_verify_url' for <Function test_login_success[chromium]>>
           finish pytest_fixture_setup --> None [hook]
           pytest_fixture_setup [hook]
               fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
-              request: <SubRequest 'pytestconfig' for <Function test_api>>
-          finish pytest_fixture_setup --> <_pytest.config.Config object at 0x000001F3030C7A10> [hook]
+              request: <SubRequest 'pytestconfig' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> <_pytest.config.Config object at 0x000001E0A5427A10> [hook]
           pytest_fixture_setup [hook]
               fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
-              request: <SubRequest 'delete_output_dir' for <Function test_api>>
+              request: <SubRequest 'delete_output_dir' for <Function test_login_success[chromium]>>
           finish pytest_fixture_setup --> None [hook]
           pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+              headless: False
+          pytest_fixture_setup [hook]
               fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
-              request: <SubRequest 'playwright' for <Function test_api>>
-          finish pytest_fixture_setup --> <playwright._impl._playwright.Playwright object at 0x000001F306070980> [hook]
+              request: <SubRequest 'playwright' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> <playwright._impl._playwright.Playwright object at 0x000001E0A835CC20> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> <BrowserType name=chromium executable_path=C:\Users\zia-kayani\AppData\Local\ms-playwright\chromium-1200\chrome-win64\chrome.exe> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='connect_options' scope='session' baseid=''>
+              request: <SubRequest 'connect_options' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> <function launch_browser.<locals>.launch at 0x000001E0A845D900> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> <Browser type=<BrowserType name=chromium executable_path=C:\Users\zia-kayani\AppData\Local\ms-playwright\chromium-1200\chrome-win64\chrome.exe> version=143.0.7499.4> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=C:\Users\zia-kayani\AppData\Local\ms-playwright\chromium-1200\chrome-win64\chrome.exe> version=143.0.7499.4>> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
         finish pytest_runtest_setup --> None [hook]
         pytest_runtest_makereport [hook]
-            item: <Function test_api>
+            item: <Function test_login_success[chromium]>
             call: <CallInfo when='setup' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='setup' outcome='passed'> [hook]
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='setup' outcome='passed'> [hook]
         pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='setup' outcome='passed'>
+            report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
-              report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
+              report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001E0A5427A10>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
-            item: <Function test_api>
+            item: <Function test_login_success[chromium]>
           pytest_pyfunc_call [hook]
-              pyfuncitem: <Function test_api>
+              pyfuncitem: <Function test_login_success[chromium]>
           finish pytest_pyfunc_call --> True [hook]
         finish pytest_runtest_call --> None [hook]
         pytest_runtest_makereport [hook]
-            item: <Function test_api>
+            item: <Function test_login_success[chromium]>
             call: <CallInfo when='call' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='call' outcome='passed'> [hook]
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='call' outcome='passed'> [hook]
         pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='call' outcome='passed'>
+            report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
-              report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
+              report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001E0A5427A10>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
-            item: <Function test_api>
-            nextitem: <Function test_get_api>
-        finish pytest_runtest_teardown --> None [hook]
-        pytest_runtest_makereport [hook]
-            item: <Function test_api>
-            call: <CallInfo when='teardown' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='teardown' outcome='passed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='teardown' outcome='passed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('', '', '') [hook]
-          pytest_html_duration_format [hook]
-              duration: 2.7962829999996757
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='setup' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/api/test_jsonplaceholder_get_api.py::test_api::setup</td>', '<td class="col-duration">00:00:03</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='setup' outcome='passed'>
-              data: ['No log output captured.']
-          finish pytest_html_results_table_html --> [] [hook]
-          pytest_html_duration_format [hook]
-              duration: 4.279836999999134
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='call' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/api/test_jsonplaceholder_get_api.py::test_api</td>', '<td class="col-duration">00:00:04</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='call' outcome='passed'>
-              data: ['----------------------------- Captured stdout call -----------------------------\n{&#x27;userId&#x27;: 1, &#x27;id&#x27;: 1, &#x27;title&#x27;: &#x27;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&#x27;, &#x27;body&#x27;: &#x27;quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto&#x27;}\n']
-          finish pytest_html_results_table_html --> [] [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.000913599999876169
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='teardown' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/api/test_jsonplaceholder_get_api.py::test_api::teardown</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/api/test_jsonplaceholder_get_api.py::test_api' when='teardown' outcome='passed'>
-              data: ['----------------------------- Captured stdout call -----------------------------\n{&#x27;userId&#x27;: 1, &#x27;id&#x27;: 1, &#x27;title&#x27;: &#x27;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&#x27;, &#x27;body&#x27;: &#x27;quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto&#x27;}\n']
-          finish pytest_html_results_table_html --> [] [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_runtest_logfinish [hook]
-            nodeid: tests/api/test_jsonplaceholder_get_api.py::test_api
-            location: ('tests\\api\\test_jsonplaceholder_get_api.py', 2, 'test_api')
-        finish pytest_runtest_logfinish --> [] [hook]
-      finish pytest_runtest_protocol --> True [hook]
-      pytest_runtest_protocol [hook]
-          item: <Function test_get_api>
-          nextitem: <Function test_example[Admin-admin123]>
-        pytest_runtest_logstart [hook]
-            nodeid: tests/api/test_reqres_get_api.py::test_get_api
-            location: ('tests\\api\\test_reqres_get_api.py', 2, 'test_get_api')
-        finish pytest_runtest_logstart --> [] [hook]
-        pytest_runtest_setup [hook]
-            item: <Function test_get_api>
-        finish pytest_runtest_setup --> None [hook]
-        pytest_runtest_makereport [hook]
-            item: <Function test_get_api>
-            call: <CallInfo when='setup' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='setup' outcome='passed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='setup' outcome='passed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('', '', '') [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_runtest_call [hook]
-            item: <Function test_get_api>
-          pytest_pyfunc_call [hook]
-              pyfuncitem: <Function test_get_api>
-        pytest_runtest_makereport [hook]
-            item: <Function test_get_api>
-            call: <CallInfo when='call' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=29>>
-        finish pytest_runtest_makereport --> <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='call' outcome='failed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='call' outcome='failed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='call' outcome='failed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_exception_interact [hook]
-            node: <Function test_get_api>
-            call: <CallInfo when='call' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=29>>
-            report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='call' outcome='failed'>
-        finish pytest_exception_interact --> [] [hook]
-        pytest_runtest_teardown [hook]
-            item: <Function test_get_api>
-            nextitem: <Function test_example[Admin-admin123]>
-        finish pytest_runtest_teardown --> None [hook]
-        pytest_runtest_makereport [hook]
-            item: <Function test_get_api>
-            call: <CallInfo when='teardown' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='teardown' outcome='passed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='teardown' outcome='passed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('', '', '') [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.0014381000000867061
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='setup' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/api/test_reqres_get_api.py::test_get_api::setup</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='setup' outcome='passed'>
-              data: ['No log output captured.']
-          finish pytest_html_results_table_html --> [] [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.003313900000648573
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='call' outcome='failed'>
-              cells: ['<td class="col-result">Failed</td>', '<td class="col-testId">tests/api/test_reqres_get_api.py::test_get_api</td>', '<td class="col-duration">3 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='call' outcome='failed'>
-              data: ['def test_get_api():\n&gt;      with sync_playwright() as p:\n            ^^^^^^^^^^^^^^^^^\n\ntests\\api\\test_reqres_get_api.py:4: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &lt;playwright.sync_api._context_manager.PlaywrightContextManager object at 0x000001F306004050&gt;\n\n        def __enter__(self) -&gt; SyncPlaywright:\n            try:\n                self._loop = asyncio.get_running_loop()\n            except RuntimeError:\n                self._loop = asyncio.new_event_loop()\n                self._own_loop = True\n            if self._loop.is_running():\n&gt;               raise Error(\n                    &quot;&quot;&quot;It looks like you are using Playwright Sync API inside the asyncio loop.\n    Please use the Async API instead.&quot;&quot;&quot;\n                )\nE               playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nE               Please use the Async API instead.\n\nvenv1\\Lib\\site-packages\\playwright\\sync_api\\_context_manager.py:47: Error\n']
-          finish pytest_html_results_table_html --> [] [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.0009546999999656691
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='teardown' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/api/test_reqres_get_api.py::test_get_api::teardown</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='teardown' outcome='passed'>
-              data: ['No log output captured.']
-          finish pytest_html_results_table_html --> [] [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_runtest_logfinish [hook]
-            nodeid: tests/api/test_reqres_get_api.py::test_get_api
-            location: ('tests\\api\\test_reqres_get_api.py', 2, 'test_get_api')
-        finish pytest_runtest_logfinish --> [] [hook]
-      finish pytest_runtest_protocol --> True [hook]
-      pytest_runtest_protocol [hook]
-          item: <Function test_example[Admin-admin123]>
-          nextitem: <Function test_example[Test1-admin345]>
-        pytest_runtest_logstart [hook]
-            nodeid: tests/test_data_driven_testing.py::test_example[Admin-admin123]
-            location: ('tests\\test_data_driven_testing.py', 21, 'test_example[Admin-admin123]')
-        finish pytest_runtest_logstart --> [] [hook]
-        pytest_runtest_setup [hook]
-            item: <Function test_example[Admin-admin123]>
-          pytest_fixture_setup [hook]
-              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
-              request: <SubRequest 'browser' for <Function test_example[Admin-admin123]>>
-        pytest_runtest_makereport [hook]
-            item: <Function test_example[Admin-admin123]>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=35>>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='setup' outcome='failed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='setup' outcome='failed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='setup' outcome='failed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_exception_interact [hook]
-            node: <Function test_example[Admin-admin123]>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=35>>
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='setup' outcome='failed'>
-        finish pytest_exception_interact --> [] [hook]
-        pytest_runtest_teardown [hook]
-            item: <Function test_example[Admin-admin123]>
-            nextitem: <Function test_example[Test1-admin345]>
-        finish pytest_runtest_teardown --> None [hook]
-        pytest_runtest_makereport [hook]
-            item: <Function test_example[Admin-admin123]>
-            call: <CallInfo when='teardown' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='teardown' outcome='passed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='teardown' outcome='passed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('', '', '') [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.001471799999308132
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='setup' outcome='failed'>
-              cells: ['<td class="col-result">Error</td>', '<td class="col-testId">tests/test_data_driven_testing.py::test_example[Admin-admin123]::setup</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='setup' outcome='failed'>
-              data: ['@pytest.fixture(scope=&quot;session&quot;)\n    def browser():\n&gt;       with sync_playwright() as p:\n             ^^^^^^^^^^^^^^^^^\n\nconftest.py:7: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &lt;playwright.sync_api._context_manager.PlaywrightContextManager object at 0x000001F306007390&gt;\n\n        def __enter__(self) -&gt; SyncPlaywright:\n            try:\n                self._loop = asyncio.get_running_loop()\n            except RuntimeError:\n                self._loop = asyncio.new_event_loop()\n                self._own_loop = True\n            if self._loop.is_running():\n&gt;               raise Error(\n                    &quot;&quot;&quot;It looks like you are using Playwright Sync API inside the asyncio loop.\n    Please use the Async API instead.&quot;&quot;&quot;\n                )\nE               playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nE               Please use the Async API instead.\n\nvenv1\\Lib\\site-packages\\playwright\\sync_api\\_context_manager.py:47: Error\n']
-          finish pytest_html_results_table_html --> [] [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.0008168000003934139
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='teardown' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_data_driven_testing.py::test_example[Admin-admin123]::teardown</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='teardown' outcome='passed'>
-              data: ['No log output captured.']
-          finish pytest_html_results_table_html --> [] [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_runtest_logfinish [hook]
-            nodeid: tests/test_data_driven_testing.py::test_example[Admin-admin123]
-            location: ('tests\\test_data_driven_testing.py', 21, 'test_example[Admin-admin123]')
-        finish pytest_runtest_logfinish --> [] [hook]
-      finish pytest_runtest_protocol --> True [hook]
-      pytest_runtest_protocol [hook]
-          item: <Function test_example[Test1-admin345]>
-          nextitem: <Function test_example[Test2-admin567]>
-        pytest_runtest_logstart [hook]
-            nodeid: tests/test_data_driven_testing.py::test_example[Test1-admin345]
-            location: ('tests\\test_data_driven_testing.py', 21, 'test_example[Test1-admin345]')
-        finish pytest_runtest_logstart --> [] [hook]
-        pytest_runtest_setup [hook]
-            item: <Function test_example[Test1-admin345]>
-        pytest_runtest_makereport [hook]
-            item: <Function test_example[Test1-admin345]>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='setup' outcome='failed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='setup' outcome='failed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='setup' outcome='failed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_exception_interact [hook]
-            node: <Function test_example[Test1-admin345]>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='setup' outcome='failed'>
-        finish pytest_exception_interact --> [] [hook]
-        pytest_runtest_teardown [hook]
-            item: <Function test_example[Test1-admin345]>
-            nextitem: <Function test_example[Test2-admin567]>
-        finish pytest_runtest_teardown --> None [hook]
-        pytest_runtest_makereport [hook]
-            item: <Function test_example[Test1-admin345]>
-            call: <CallInfo when='teardown' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='teardown' outcome='passed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='teardown' outcome='passed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('', '', '') [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.0012057999992975965
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='setup' outcome='failed'>
-              cells: ['<td class="col-result">Error</td>', '<td class="col-testId">tests/test_data_driven_testing.py::test_example[Test1-admin345]::setup</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='setup' outcome='failed'>
-              data: ['@pytest.fixture(scope=&quot;session&quot;)\n    def browser():\n&gt;       with sync_playwright() as p:\n             ^^^^^^^^^^^^^^^^^\n\nconftest.py:7: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &lt;playwright.sync_api._context_manager.PlaywrightContextManager object at 0x000001F306007390&gt;\n\n        def __enter__(self) -&gt; SyncPlaywright:\n            try:\n                self._loop = asyncio.get_running_loop()\n            except RuntimeError:\n                self._loop = asyncio.new_event_loop()\n                self._own_loop = True\n            if self._loop.is_running():\n&gt;               raise Error(\n                    &quot;&quot;&quot;It looks like you are using Playwright Sync API inside the asyncio loop.\n    Please use the Async API instead.&quot;&quot;&quot;\n                )\nE               playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nE               Please use the Async API instead.\n\nvenv1\\Lib\\site-packages\\playwright\\sync_api\\_context_manager.py:47: Error\n']
-          finish pytest_html_results_table_html --> [] [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.0008932999999160529
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='teardown' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_data_driven_testing.py::test_example[Test1-admin345]::teardown</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='teardown' outcome='passed'>
-              data: ['No log output captured.']
-          finish pytest_html_results_table_html --> [] [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_runtest_logfinish [hook]
-            nodeid: tests/test_data_driven_testing.py::test_example[Test1-admin345]
-            location: ('tests\\test_data_driven_testing.py', 21, 'test_example[Test1-admin345]')
-        finish pytest_runtest_logfinish --> [] [hook]
-      finish pytest_runtest_protocol --> True [hook]
-      pytest_runtest_protocol [hook]
-          item: <Function test_example[Test2-admin567]>
-          nextitem: <Function test_google_search>
-        pytest_runtest_logstart [hook]
-            nodeid: tests/test_data_driven_testing.py::test_example[Test2-admin567]
-            location: ('tests\\test_data_driven_testing.py', 21, 'test_example[Test2-admin567]')
-        finish pytest_runtest_logstart --> [] [hook]
-        pytest_runtest_setup [hook]
-            item: <Function test_example[Test2-admin567]>
-        pytest_runtest_makereport [hook]
-            item: <Function test_example[Test2-admin567]>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='setup' outcome='failed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='setup' outcome='failed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='setup' outcome='failed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_exception_interact [hook]
-            node: <Function test_example[Test2-admin567]>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='setup' outcome='failed'>
-        finish pytest_exception_interact --> [] [hook]
-        pytest_runtest_teardown [hook]
-            item: <Function test_example[Test2-admin567]>
-            nextitem: <Function test_google_search>
-        finish pytest_runtest_teardown --> None [hook]
-        pytest_runtest_makereport [hook]
-            item: <Function test_example[Test2-admin567]>
-            call: <CallInfo when='teardown' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='teardown' outcome='passed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='teardown' outcome='passed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('', '', '') [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.0015480000001844019
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='setup' outcome='failed'>
-              cells: ['<td class="col-result">Error</td>', '<td class="col-testId">tests/test_data_driven_testing.py::test_example[Test2-admin567]::setup</td>', '<td class="col-duration">2 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='setup' outcome='failed'>
-              data: ['@pytest.fixture(scope=&quot;session&quot;)\n    def browser():\n&gt;       with sync_playwright() as p:\n             ^^^^^^^^^^^^^^^^^\n\nconftest.py:7: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &lt;playwright.sync_api._context_manager.PlaywrightContextManager object at 0x000001F306007390&gt;\n\n        def __enter__(self) -&gt; SyncPlaywright:\n            try:\n                self._loop = asyncio.get_running_loop()\n            except RuntimeError:\n                self._loop = asyncio.new_event_loop()\n                self._own_loop = True\n            if self._loop.is_running():\n&gt;               raise Error(\n                    &quot;&quot;&quot;It looks like you are using Playwright Sync API inside the asyncio loop.\n    Please use the Async API instead.&quot;&quot;&quot;\n                )\nE               playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nE               Please use the Async API instead.\n\nvenv1\\Lib\\site-packages\\playwright\\sync_api\\_context_manager.py:47: Error\n']
-          finish pytest_html_results_table_html --> [] [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.0011334000000715605
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='teardown' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_data_driven_testing.py::test_example[Test2-admin567]::teardown</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='teardown' outcome='passed'>
-              data: ['No log output captured.']
-          finish pytest_html_results_table_html --> [] [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_runtest_logfinish [hook]
-            nodeid: tests/test_data_driven_testing.py::test_example[Test2-admin567]
-            location: ('tests\\test_data_driven_testing.py', 21, 'test_example[Test2-admin567]')
-        finish pytest_runtest_logfinish --> [] [hook]
-      finish pytest_runtest_protocol --> True [hook]
-      pytest_runtest_protocol [hook]
-          item: <Function test_google_search>
-          nextitem: <Function test_example>
-        pytest_runtest_logstart [hook]
-            nodeid: tests/test_google_search.py::test_google_search
-            location: ('tests\\test_google_search.py', 3, 'test_google_search')
-        finish pytest_runtest_logstart --> [] [hook]
-        pytest_runtest_setup [hook]
-            item: <Function test_google_search>
-        pytest_runtest_makereport [hook]
-            item: <Function test_google_search>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_google_search.py::test_google_search' when='setup' outcome='failed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_google_search.py::test_google_search' when='setup' outcome='failed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_google_search.py::test_google_search' when='setup' outcome='failed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_exception_interact [hook]
-            node: <Function test_google_search>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-            report: <TestReport 'tests/test_google_search.py::test_google_search' when='setup' outcome='failed'>
-        finish pytest_exception_interact --> [] [hook]
-        pytest_runtest_teardown [hook]
-            item: <Function test_google_search>
-            nextitem: <Function test_example>
-        finish pytest_runtest_teardown --> None [hook]
-        pytest_runtest_makereport [hook]
-            item: <Function test_google_search>
-            call: <CallInfo when='teardown' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_google_search.py::test_google_search' when='teardown' outcome='passed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_google_search.py::test_google_search' when='teardown' outcome='passed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_google_search.py::test_google_search' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('', '', '') [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.0015664000002288958
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_google_search.py::test_google_search' when='setup' outcome='failed'>
-              cells: ['<td class="col-result">Error</td>', '<td class="col-testId">tests/test_google_search.py::test_google_search::setup</td>', '<td class="col-duration">2 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_google_search.py::test_google_search' when='setup' outcome='failed'>
-              data: ['@pytest.fixture(scope=&quot;session&quot;)\n    def browser():\n&gt;       with sync_playwright() as p:\n             ^^^^^^^^^^^^^^^^^\n\nconftest.py:7: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &lt;playwright.sync_api._context_manager.PlaywrightContextManager object at 0x000001F306007390&gt;\n\n        def __enter__(self) -&gt; SyncPlaywright:\n            try:\n                self._loop = asyncio.get_running_loop()\n            except RuntimeError:\n                self._loop = asyncio.new_event_loop()\n                self._own_loop = True\n            if self._loop.is_running():\n&gt;               raise Error(\n                    &quot;&quot;&quot;It looks like you are using Playwright Sync API inside the asyncio loop.\n    Please use the Async API instead.&quot;&quot;&quot;\n                )\nE               playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nE               Please use the Async API instead.\n\nvenv1\\Lib\\site-packages\\playwright\\sync_api\\_context_manager.py:47: Error\n']
-          finish pytest_html_results_table_html --> [] [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.002488199999788776
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_google_search.py::test_google_search' when='teardown' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_google_search.py::test_google_search::teardown</td>', '<td class="col-duration">2 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_google_search.py::test_google_search' when='teardown' outcome='passed'>
-              data: ['No log output captured.']
-          finish pytest_html_results_table_html --> [] [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_runtest_logfinish [hook]
-            nodeid: tests/test_google_search.py::test_google_search
-            location: ('tests\\test_google_search.py', 3, 'test_google_search')
-        finish pytest_runtest_logfinish --> [] [hook]
-      finish pytest_runtest_protocol --> True [hook]
-      pytest_runtest_protocol [hook]
-          item: <Function test_example>
-          nextitem: <Function test_example>
-        pytest_runtest_logstart [hook]
-            nodeid: tests/test_login_orangeHRM copy.py::test_example
-            location: ('tests\\test_login_orangeHRM copy.py', 7, 'test_example')
-        finish pytest_runtest_logstart --> [] [hook]
-        pytest_runtest_setup [hook]
-            item: <Function test_example>
-        pytest_runtest_makereport [hook]
-            item: <Function test_example>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='setup' outcome='failed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='setup' outcome='failed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='setup' outcome='failed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_exception_interact [hook]
-            node: <Function test_example>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-            report: <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='setup' outcome='failed'>
-        finish pytest_exception_interact --> [] [hook]
-        pytest_runtest_teardown [hook]
-            item: <Function test_example>
-            nextitem: <Function test_example>
-        finish pytest_runtest_teardown --> None [hook]
-        pytest_runtest_makereport [hook]
-            item: <Function test_example>
-            call: <CallInfo when='teardown' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='teardown' outcome='passed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='teardown' outcome='passed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('', '', '') [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.002819700000145531
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='setup' outcome='failed'>
-              cells: ['<td class="col-result">Error</td>', '<td class="col-testId">tests/test_login_orangeHRM copy.py::test_example::setup</td>', '<td class="col-duration">3 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='setup' outcome='failed'>
-              data: ['@pytest.fixture(scope=&quot;session&quot;)\n    def browser():\n&gt;       with sync_playwright() as p:\n             ^^^^^^^^^^^^^^^^^\n\nconftest.py:7: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &lt;playwright.sync_api._context_manager.PlaywrightContextManager object at 0x000001F306007390&gt;\n\n        def __enter__(self) -&gt; SyncPlaywright:\n            try:\n                self._loop = asyncio.get_running_loop()\n            except RuntimeError:\n                self._loop = asyncio.new_event_loop()\n                self._own_loop = True\n            if self._loop.is_running():\n&gt;               raise Error(\n                    &quot;&quot;&quot;It looks like you are using Playwright Sync API inside the asyncio loop.\n    Please use the Async API instead.&quot;&quot;&quot;\n                )\nE               playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nE               Please use the Async API instead.\n\nvenv1\\Lib\\site-packages\\playwright\\sync_api\\_context_manager.py:47: Error\n']
-          finish pytest_html_results_table_html --> [] [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.0008144000003085239
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='teardown' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_login_orangeHRM copy.py::test_example::teardown</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='teardown' outcome='passed'>
-              data: ['No log output captured.']
-          finish pytest_html_results_table_html --> [] [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_runtest_logfinish [hook]
-            nodeid: tests/test_login_orangeHRM copy.py::test_example
-            location: ('tests\\test_login_orangeHRM copy.py', 7, 'test_example')
-        finish pytest_runtest_logfinish --> [] [hook]
-      finish pytest_runtest_protocol --> True [hook]
-      pytest_runtest_protocol [hook]
-          item: <Function test_example>
-          nextitem: <Function test_example>
-        pytest_runtest_logstart [hook]
-            nodeid: tests/test_login_orangeHRM.py::test_example
-            location: ('tests\\test_login_orangeHRM.py', 9, 'test_example')
-        finish pytest_runtest_logstart --> [] [hook]
-        pytest_runtest_setup [hook]
-            item: <Function test_example>
-        pytest_runtest_makereport [hook]
-            item: <Function test_example>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_orangeHRM.py::test_example' when='setup' outcome='failed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_login_orangeHRM.py::test_example' when='setup' outcome='failed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_login_orangeHRM.py::test_example' when='setup' outcome='failed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_exception_interact [hook]
-            node: <Function test_example>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-            report: <TestReport 'tests/test_login_orangeHRM.py::test_example' when='setup' outcome='failed'>
-        finish pytest_exception_interact --> [] [hook]
-        pytest_runtest_teardown [hook]
-            item: <Function test_example>
-            nextitem: <Function test_example>
-        finish pytest_runtest_teardown --> None [hook]
-        pytest_runtest_makereport [hook]
-            item: <Function test_example>
-            call: <CallInfo when='teardown' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_orangeHRM.py::test_example' when='teardown' outcome='passed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_login_orangeHRM.py::test_example' when='teardown' outcome='passed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_login_orangeHRM.py::test_example' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('', '', '') [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.0014271999998527463
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_login_orangeHRM.py::test_example' when='setup' outcome='failed'>
-              cells: ['<td class="col-result">Error</td>', '<td class="col-testId">tests/test_login_orangeHRM.py::test_example::setup</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_login_orangeHRM.py::test_example' when='setup' outcome='failed'>
-              data: ['@pytest.fixture(scope=&quot;session&quot;)\n    def browser():\n&gt;       with sync_playwright() as p:\n             ^^^^^^^^^^^^^^^^^\n\nconftest.py:7: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &lt;playwright.sync_api._context_manager.PlaywrightContextManager object at 0x000001F306007390&gt;\n\n        def __enter__(self) -&gt; SyncPlaywright:\n            try:\n                self._loop = asyncio.get_running_loop()\n            except RuntimeError:\n                self._loop = asyncio.new_event_loop()\n                self._own_loop = True\n            if self._loop.is_running():\n&gt;               raise Error(\n                    &quot;&quot;&quot;It looks like you are using Playwright Sync API inside the asyncio loop.\n    Please use the Async API instead.&quot;&quot;&quot;\n                )\nE               playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nE               Please use the Async API instead.\n\nvenv1\\Lib\\site-packages\\playwright\\sync_api\\_context_manager.py:47: Error\n']
-          finish pytest_html_results_table_html --> [] [hook]
-          pytest_html_duration_format [hook]
-              duration: 0.0009300000001530861
-          finish pytest_html_duration_format --> [] [hook]
-          pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_login_orangeHRM.py::test_example' when='teardown' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_login_orangeHRM.py::test_example::teardown</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
-          finish pytest_html_results_table_row --> [] [hook]
-          pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_login_orangeHRM.py::test_example' when='teardown' outcome='passed'>
-              data: ['No log output captured.']
-          finish pytest_html_results_table_html --> [] [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_runtest_logfinish [hook]
-            nodeid: tests/test_login_orangeHRM.py::test_example
-            location: ('tests\\test_login_orangeHRM.py', 9, 'test_example')
-        finish pytest_runtest_logfinish --> [] [hook]
-      finish pytest_runtest_protocol --> True [hook]
-      pytest_runtest_protocol [hook]
-          item: <Function test_example>
-          nextitem: None
-        pytest_runtest_logstart [hook]
-            nodeid: tests/test_recorded.py::test_example
-            location: ('tests\\test_recorded.py', 4, 'test_example')
-        finish pytest_runtest_logstart --> [] [hook]
-        pytest_runtest_setup [hook]
-            item: <Function test_example>
-        pytest_runtest_makereport [hook]
-            item: <Function test_example>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_recorded.py::test_example' when='setup' outcome='failed'> [hook]
-        pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_recorded.py::test_example' when='setup' outcome='failed'>
-          pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_recorded.py::test_example' when='setup' outcome='failed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
-          finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        finish pytest_runtest_logreport --> [] [hook]
-        pytest_exception_interact [hook]
-            node: <Function test_example>
-            call: <CallInfo when='setup' excinfo=<ExceptionInfo Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.') tblen=25>>
-            report: <TestReport 'tests/test_recorded.py::test_example' when='setup' outcome='failed'>
-        finish pytest_exception_interact --> [] [hook]
-        pytest_runtest_teardown [hook]
-            item: <Function test_example>
+            item: <Function test_login_success[chromium]>
             nextitem: None
           pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
               fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
-              request: <SubRequest 'browser' for <Function test_example[Admin-admin123]>>
+              request: <SubRequest 'browser' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='connect_options' scope='session' baseid=''>
+              request: <SubRequest 'connect_options' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_login_success[chromium]>>
           finish pytest_fixture_post_finalizer --> [] [hook]
           pytest_fixture_post_finalizer [hook]
               fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
-              request: <SubRequest 'playwright' for <Function test_api>>
+              request: <SubRequest 'playwright' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_login_success[chromium]>>
           finish pytest_fixture_post_finalizer --> [] [hook]
           pytest_fixture_post_finalizer [hook]
               fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
-              request: <SubRequest 'delete_output_dir' for <Function test_api>>
+              request: <SubRequest 'delete_output_dir' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_login_success[chromium]>>
           finish pytest_fixture_post_finalizer --> [] [hook]
           pytest_fixture_post_finalizer [hook]
               fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
-              request: <SubRequest 'delete_output_dir' for <Function test_api>>
+              request: <SubRequest 'delete_output_dir' for <Function test_login_success[chromium]>>
           finish pytest_fixture_post_finalizer --> [] [hook]
           pytest_fixture_post_finalizer [hook]
               fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
-              request: <SubRequest 'pytestconfig' for <Function test_api>>
+              request: <SubRequest 'pytestconfig' for <Function test_login_success[chromium]>>
           finish pytest_fixture_post_finalizer --> [] [hook]
           pytest_fixture_post_finalizer [hook]
               fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
-              request: <SubRequest '_verify_url' for <Function test_api>>
+              request: <SubRequest '_verify_url' for <Function test_login_success[chromium]>>
           finish pytest_fixture_post_finalizer --> [] [hook]
           pytest_fixture_post_finalizer [hook]
               fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
-              request: <SubRequest '_verify_url' for <Function test_api>>
+              request: <SubRequest '_verify_url' for <Function test_login_success[chromium]>>
           finish pytest_fixture_post_finalizer --> [] [hook]
           pytest_fixture_post_finalizer [hook]
               fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
-              request: <SubRequest 'base_url' for <Function test_api>>
+              request: <SubRequest 'base_url' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Function test_login_success[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='env' scope='session' baseid=''>
+              request: <SubRequest 'env' for <Function test_login_success[chromium]>>
           finish pytest_fixture_post_finalizer --> [] [hook]
         finish pytest_runtest_teardown --> None [hook]
         pytest_runtest_makereport [hook]
-            item: <Function test_example>
+            item: <Function test_login_success[chromium]>
             call: <CallInfo when='teardown' result: None>
-        finish pytest_runtest_makereport --> <TestReport 'tests/test_recorded.py::test_example' when='teardown' outcome='passed'> [hook]
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='teardown' outcome='passed'> [hook]
         pytest_runtest_logreport [hook]
-            report: <TestReport 'tests/test_recorded.py::test_example' when='teardown' outcome='passed'>
+            report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
-              report: <TestReport 'tests/test_recorded.py::test_example' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001F3030C7A10>
+              report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001E0A5427A10>
           finish pytest_report_teststatus --> ('', '', '') [hook]
           pytest_html_duration_format [hook]
-              duration: 0.0011687000005622394
+              duration: 3.6124319000082323
           finish pytest_html_duration_format --> [] [hook]
           pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_recorded.py::test_example' when='setup' outcome='failed'>
-              cells: ['<td class="col-result">Error</td>', '<td class="col-testId">tests/test_recorded.py::test_example::setup</td>', '<td class="col-duration">1 ms</td>', '<td class="col-links"></td>']
+              report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='setup' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_recorded.py::test_login_success[chromium]::setup</td>', '<td class="col-duration">00:00:04</td>', '<td class="col-links"></td>']
           finish pytest_html_results_table_row --> [] [hook]
           pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_recorded.py::test_example' when='setup' outcome='failed'>
-              data: ['@pytest.fixture(scope=&quot;session&quot;)\n    def browser():\n&gt;       with sync_playwright() as p:\n             ^^^^^^^^^^^^^^^^^\n\nconftest.py:7: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &lt;playwright.sync_api._context_manager.PlaywrightContextManager object at 0x000001F306007390&gt;\n\n        def __enter__(self) -&gt; SyncPlaywright:\n            try:\n                self._loop = asyncio.get_running_loop()\n            except RuntimeError:\n                self._loop = asyncio.new_event_loop()\n                self._own_loop = True\n            if self._loop.is_running():\n&gt;               raise Error(\n                    &quot;&quot;&quot;It looks like you are using Playwright Sync API inside the asyncio loop.\n    Please use the Async API instead.&quot;&quot;&quot;\n                )\nE               playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nE               Please use the Async API instead.\n\nvenv1\\Lib\\site-packages\\playwright\\sync_api\\_context_manager.py:47: Error\n']
+              report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='setup' outcome='passed'>
+              data: ['No log output captured.']
           finish pytest_html_results_table_html --> [] [hook]
           pytest_html_duration_format [hook]
-              duration: 0.08474569999998494
+              duration: 16.24879230001534
           finish pytest_html_duration_format --> [] [hook]
           pytest_html_results_table_row [hook]
-              report: <TestReport 'tests/test_recorded.py::test_example' when='teardown' outcome='passed'>
-              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_recorded.py::test_example::teardown</td>', '<td class="col-duration">85 ms</td>', '<td class="col-links"></td>']
+              report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='call' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_recorded.py::test_login_success[chromium]</td>', '<td class="col-duration">00:00:16</td>', '<td class="col-links"></td>']
           finish pytest_html_results_table_row --> [] [hook]
           pytest_html_results_table_html [hook]
-              report: <TestReport 'tests/test_recorded.py::test_example' when='teardown' outcome='passed'>
+              report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='call' outcome='passed'>
+              data: ['No log output captured.']
+          finish pytest_html_results_table_html --> [] [hook]
+          pytest_html_duration_format [hook]
+              duration: 1.475947900005849
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='teardown' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_recorded.py::test_login_success[chromium]::teardown</td>', '<td class="col-duration">00:00:01</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/test_recorded.py::test_login_success[chromium]' when='teardown' outcome='passed'>
               data: ['No log output captured.']
           finish pytest_html_results_table_html --> [] [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
-            nodeid: tests/test_recorded.py::test_example
-            location: ('tests\\test_recorded.py', 4, 'test_example')
+            nodeid: tests/test_recorded.py::test_login_success[chromium]
+            location: ('tests\\test_recorded.py', 2, 'test_login_success[chromium]')
         finish pytest_runtest_logfinish --> [] [hook]
       finish pytest_runtest_protocol --> True [hook]
     finish pytest_runtestloop --> True [hook]
     pytest_sessionfinish [hook]
-        session: <Session  exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=8 testscollected=9>
-        exitstatus: 1
+        session: <Session  exitstatus=0 testsfailed=0 testscollected=1>
+        exitstatus: 0
       pytest_html_results_summary [hook]
           prefix: []
           summary: []
           postfix: []
-          session: <Session  exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=8 testscollected=9>
+          session: <Session  exitstatus=0 testsfailed=0 testscollected=1>
       finish pytest_html_results_summary --> [] [hook]
       pytest_terminal_summary [hook]
-          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x000001F305E93CB0>
-          exitstatus: 1
-          config: <_pytest.config.Config object at 0x000001F3030C7A10>
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x000001E0A82D82F0>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x000001E0A5427A10>
       early skip of rewriting module: urllib.request [assertion]
       early skip of rewriting module: http [assertion]
       early skip of rewriting module: http.client [assertion]
       early skip of rewriting module: urllib.error [assertion]
       early skip of rewriting module: urllib.response [assertion]
-        pytest_report_teststatus [hook]
-            report: <TestReport 'tests/api/test_reqres_get_api.py::test_get_api' when='call' outcome='failed'>
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
-        pytest_report_teststatus [hook]
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Admin-admin123]' when='setup' outcome='failed'>
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        pytest_report_teststatus [hook]
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test1-admin345]' when='setup' outcome='failed'>
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        pytest_report_teststatus [hook]
-            report: <TestReport 'tests/test_data_driven_testing.py::test_example[Test2-admin567]' when='setup' outcome='failed'>
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        pytest_report_teststatus [hook]
-            report: <TestReport 'tests/test_google_search.py::test_google_search' when='setup' outcome='failed'>
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        pytest_report_teststatus [hook]
-            report: <TestReport 'tests/test_login_orangeHRM copy.py::test_example' when='setup' outcome='failed'>
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        pytest_report_teststatus [hook]
-            report: <TestReport 'tests/test_login_orangeHRM.py::test_example' when='setup' outcome='failed'>
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
-        pytest_report_teststatus [hook]
-            report: <TestReport 'tests/test_recorded.py::test_example' when='setup' outcome='failed'>
-            config: <_pytest.config.Config object at 0x000001F3030C7A10>
-        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
       finish pytest_terminal_summary --> [] [hook]
     finish pytest_sessionfinish --> [] [hook]
     pytest_unconfigure [hook]
-        config: <_pytest.config.Config object at 0x000001F3030C7A10>
+        config: <_pytest.config.Config object at 0x000001E0A5427A10>
     finish pytest_unconfigure --> [] [hook]
