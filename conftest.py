@@ -1,8 +1,6 @@
 
 import pytest
 
-
-
 # #Added this fixture so that tracing should work 
 # #this will create the seperate context of the browser 
 @pytest.fixture
