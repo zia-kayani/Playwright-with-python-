@@ -2,6 +2,7 @@
 venv/
 .venv/
 env/
+trace.zip
 
 # Python cache
 __pycache__/
